@@ -1,6 +1,6 @@
-# DataMonitor Support
+# CellMonitor Support
 
-Support pages and privacy policy for the [DataMonitor](https://apps.apple.com/app/datamonitor) iOS app.
+Support pages and privacy policy for the [CellMonitor](https://apps.apple.com/app/datamonitor) iOS app.
 
 ## Pages
 
