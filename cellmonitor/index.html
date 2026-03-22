@@ -111,12 +111,26 @@
             text-decoration: none;
         }
         a:hover { text-decoration: underline; }
-        .links {
-            margin-top: 1.5rem;
-            font-size: 0.85rem;
+        nav { margin-top: 2rem; }
+        nav a {
+            display: block;
+            padding: 20px;
+            margin-bottom: 12px;
+            background: #F9F6F2;
+            border-radius: 12px;
+            color: #2D2823;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            text-align: left;
         }
-        .links a {
-            margin: 0 0.75rem;
+        nav a:hover { background: #f0ebe4; }
+        nav a span {
+            color: #6b6560;
+            font-weight: 400;
+            font-size: 0.9rem;
+            display: block;
+            margin-top: 2px;
         }
     </style>
 </head>
@@ -191,11 +205,15 @@
             <p>Open the main app to refresh the data. Widgets update approximately every 15 minutes. If the widget still shows stale data, try removing and re-adding it.</p>
         </div>
 
+        <nav>
+            <a href="privacy-policy.html">
+                Privacy Policy
+                <span>How we handle your data</span>
+            </a>
+        </nav>
+
         <div class="contact">
             <p>Need help? Contact us at <a href="mailto:brainvault.mind@gmail.com">brainvault.mind@gmail.com</a></p>
-            <div class="links">
-                <a href="privacy-policy.html">Privacy Policy</a>
-            </div>
         </div>
     </div>
 </body>
