@@ -3,200 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CellMonitor: Usage & Speed - Support</title>
+    <title>BrainVault Apps</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.7;
-            color: #2D2823;
-            background: #F9F6F2;
-            padding: 2rem 1rem;
-        }
-        .container {
-            max-width: 720px;
+            max-width: 600px;
             margin: 0 auto;
+            padding: 48px 16px;
+            line-height: 1.6;
+            color: #1d1d1f;
             background: #fff;
-            padding: 2.5rem;
-            border-radius: 16px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-            text-align: center;
         }
-        .icon {
-            width: 100px;
-            height: 100px;
-            background: linear-gradient(135deg, #DDD2C1, #B89245);
-            border-radius: 22px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 1.5rem;
-            font-size: 48px;
+        h1 { font-size: 28px; margin-bottom: 8px; }
+        .subtitle { color: #6e6e73; }
+        .apps { margin-top: 32px; }
+        .app {
+            display: block;
+            padding: 20px;
+            margin-bottom: 12px;
+            background: #f5f5f7;
+            border-radius: 12px;
+            color: #1d1d1f;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
         }
-        h1 {
-            font-size: 2rem;
-            margin-bottom: 0.25rem;
-            color: #2D2823;
-        }
-        .tagline {
-            color: #8C7055;
-            font-size: 1.1rem;
-            margin-bottom: 2rem;
-        }
-        .features {
-            text-align: left;
-            margin: 2rem 0;
-        }
-        .feature {
-            display: flex;
-            align-items: flex-start;
-            gap: 1rem;
-            margin-bottom: 1.25rem;
-        }
-        .feature-icon {
-            flex-shrink: 0;
-            width: 40px;
-            height: 40px;
-            background: #8C7055;
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 18px;
-        }
-        .feature-icon.amber { background: #B89245; }
-        .feature-icon.sage { background: #7A8C5A; }
-        .feature-icon.terra { background: #B5503A; }
-        .feature h3 {
-            font-size: 1rem;
-            margin-bottom: 0.1rem;
-            color: #2D2823;
-        }
-        .feature p {
-            font-size: 0.9rem;
-            color: #6b6560;
-        }
-        .section-title {
-            font-size: 1.2rem;
-            color: #8C7055;
-            margin-top: 2.5rem;
-            margin-bottom: 1rem;
-            text-align: left;
-        }
-        .faq {
-            text-align: left;
-            margin-bottom: 1.5rem;
-        }
-        .faq h3 {
-            font-size: 0.95rem;
-            margin-bottom: 0.25rem;
-            color: #2D2823;
-        }
-        .faq p {
-            font-size: 0.9rem;
-            color: #6b6560;
+        .app:hover { background: #e8e8ed; }
+        .app span {
+            color: #6e6e73;
+            font-weight: 400;
+            font-size: 14px;
+            display: block;
+            margin-top: 2px;
         }
         .contact {
-            margin-top: 2.5rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid #e8e2da;
+            margin-top: 48px;
+            font-size: 14px;
+            color: #6e6e73;
         }
-        .contact p {
-            font-size: 0.95rem;
-            color: #6b6560;
-        }
-        a {
-            color: #8C7055;
-            text-decoration: none;
-        }
-        a:hover { text-decoration: underline; }
-        .links {
-            margin-top: 1.5rem;
-            font-size: 0.85rem;
-        }
-        .links a {
-            margin: 0 0.75rem;
-        }
+        .contact a { color: #6e6e73; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="icon">📡</div>
-        <h1>CellMonitor</h1>
-        <p class="tagline">Usage & Speed · Track your cellular and WiFi data</p>
+    <h1>BrainVault Apps</h1>
+    <p class="subtitle">Support pages and privacy policies for our iOS apps.</p>
 
-        <div class="features">
-            <div class="feature">
-                <div class="feature-icon">📊</div>
-                <div>
-                    <h3>Usage Tracking</h3>
-                    <p>Monitor cellular and WiFi data usage with daily breakdowns and visual charts.</p>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="feature-icon terra">🔔</div>
-                <div>
-                    <h3>Smart Alerts</h3>
-                    <p>Get notified before you hit your data cap. Set your own warning threshold.</p>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="feature-icon sage">⚡</div>
-                <div>
-                    <h3>Speed Tests</h3>
-                    <p>Measure download, upload, and latency anytime with one tap.</p>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="feature-icon amber">📱</div>
-                <div>
-                    <h3>Home Screen Widget</h3>
-                    <p>See your usage at a glance without opening the app.</p>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">📄</div>
-                <div>
-                    <h3>Export Reports</h3>
-                    <p>Share your usage history as PDF or CSV files.</p>
-                </div>
-            </div>
-        </div>
-
-        <h2 class="section-title">Frequently Asked Questions</h2>
-
-        <div class="faq">
-            <h3>How does the app track data usage?</h3>
-            <p>CellMonitor reads your device's built-in network counters each time you open the app and periodically in the background. It calculates usage by comparing readings over time within your billing period.</p>
-        </div>
-
-        <div class="faq">
-            <h3>Is my data sent anywhere?</h3>
-            <p>No. All usage data stays on your device. The only network connections are speed tests you manually initiate, which go to Apple and Cloudflare endpoints.</p>
-        </div>
-
-        <div class="faq">
-            <h3>Why do the numbers differ from my carrier?</h3>
-            <p>The app reads cumulative byte counters from iOS, which reset on device reboot. While the app handles reboots gracefully, minor differences from carrier-reported usage are normal. Use the app as a guide, not a replacement for carrier data.</p>
-        </div>
-
-        <div class="faq">
-            <h3>How do I set up my billing period?</h3>
-            <p>Tap the gear icon (Settings) from the dashboard. Set your billing cycle start day, end day, monthly data cap, and warning threshold percentage.</p>
-        </div>
-
-        <div class="faq">
-            <h3>The widget isn't updating. What should I do?</h3>
-            <p>Open the main app to refresh the data. Widgets update approximately every 15 minutes. If the widget still shows stale data, try removing and re-adding it.</p>
-        </div>
-
-        <div class="contact">
-            <p>Need help? Contact us at <a href="mailto:brainvault.mind@gmail.com">brainvault.mind@gmail.com</a></p>
-            <div class="links">
-                <a href="privacy-policy.html">Privacy Policy</a>
-            </div>
-        </div>
+    <div class="apps">
+        <a class="app" href="cellmonitor/">
+            CellMonitor: Usage &amp; Speed
+            <span>Support, features, FAQ, and privacy policy</span>
+        </a>
+        <a class="app" href="icart/">
+            iCart
+            <span>Support and privacy policy</span>
+        </a>
     </div>
+
+    <p class="contact">Contact: <a href="mailto:brainvault.mind@gmail.com">brainvault.mind@gmail.com</a></p>
 </body>
 </html>

@@ -1,20 +1,30 @@
-# CellMonitor Support
+# Privacy Pages
 
-Support pages and privacy policy for the [CellMonitor](https://apps.apple.com/app/datamonitor) iOS app.
+Support pages and privacy policies for BrainVault iOS apps, hosted via GitHub Pages.
 
-## Pages
+## Apps
 
-- **[Support Page](index.html)** — App features, FAQ, and contact info
-- **[Privacy Policy](privacy-policy.html)** — How the app handles your data
+### CellMonitor: Usage & Speed
+- [Support Page](cellmonitor/index.html) — Features, FAQ, and contact
+- [Privacy Policy](cellmonitor/privacy-policy.html) — How the app handles your data
 
-## Setup
+### iCart
+- [Support Page](icart/index.html) — App information and links
+- [Privacy Policy](icart/privacy-policy.html) — How the app handles your data
 
-This repo is published via [GitHub Pages](https://pages.github.com). To enable:
+## Structure
 
-1. Go to **Settings → Pages**
-2. Set source to **Deploy from a branch**
-3. Select **main** branch, root folder
-4. Save
+```
+cellmonitor/        CellMonitor support and privacy policy
+icart/              iCart support and privacy policy
+index.html          Root landing page
+```
+
+## Adding a New App
+
+1. Create a new directory named after the app
+2. Add `index.html` and `privacy-policy.html`
+3. Add a link in the root `index.html`
 
 ## Contact
 
