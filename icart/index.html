@@ -5,41 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iCart Support</title>
     <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            max-width: 700px;
-            margin: 0 auto;
-            padding: 24px 16px;
-            line-height: 1.6;
-            color: #1d1d1f;
-            background: #fff;
+            line-height: 1.7;
+            color: #2D2823;
+            background: #F9F6F2;
+            padding: 2rem 1rem;
         }
-        h1 { font-size: 28px; }
-        nav { margin-top: 32px; }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            text-align: center;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.25rem;
+            color: #2D2823;
+        }
+        .tagline {
+            color: #8C7055;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+        nav { margin-top: 2rem; }
         nav a {
             display: block;
-            padding: 14px 20px;
+            padding: 20px;
             margin-bottom: 12px;
-            background: #f5f5f7;
+            background: #F9F6F2;
             border-radius: 12px;
-            color: #1d1d1f;
+            color: #2D2823;
             text-decoration: none;
-            font-size: 16px;
+            font-size: 1rem;
             font-weight: 500;
+            text-align: left;
         }
-        nav a:hover { background: #e8e8ed; }
-        nav a span { color: #6e6e73; font-weight: 400; font-size: 14px; display: block; margin-top: 2px; }
+        nav a:hover { background: #f0ebe4; }
+        nav a span {
+            color: #6b6560;
+            font-weight: 400;
+            font-size: 0.9rem;
+            display: block;
+            margin-top: 2px;
+        }
+        a {
+            color: #8C7055;
+            text-decoration: none;
+        }
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
-    <h1>iCart</h1>
-    <p>Shared shopping lists for your household.</p>
+    <div class="container">
+        <h1>iCart</h1>
+        <p class="tagline">Shared shopping lists for your household.</p>
 
-    <nav>
-        <a href="privacy-policy.html">
-            Privacy Policy
-            <span>How we handle your data</span>
-        </a>
-    </nav>
+        <nav>
+            <a href="privacy-policy.html">
+                Privacy Policy
+                <span>How we handle your data</span>
+            </a>
+        </nav>
+    </div>
 </body>
 </html>

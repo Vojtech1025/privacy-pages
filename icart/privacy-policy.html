@@ -5,66 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iCart — Privacy Policy</title>
     <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            max-width: 700px;
-            margin: 0 auto;
-            padding: 24px 16px;
-            line-height: 1.6;
-            color: #1d1d1f;
-            background: #fff;
+            line-height: 1.7;
+            color: #2D2823;
+            background: #F9F6F2;
+            padding: 2rem 1rem;
         }
-        h1 { font-size: 28px; margin-bottom: 4px; }
-        h2 { font-size: 20px; margin-top: 32px; }
-        p, li { font-size: 15px; }
-        .date { color: #6e6e73; font-size: 14px; margin-bottom: 32px; }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        }
+        h1 {
+            font-size: 1.75rem;
+            margin-bottom: 0.25rem;
+            color: #2D2823;
+        }
+        .subtitle {
+            color: #8C7055;
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+        }
+        h2 {
+            font-size: 1.15rem;
+            margin-top: 1.75rem;
+            margin-bottom: 0.5rem;
+            color: #8C7055;
+        }
+        p, li {
+            font-size: 0.95rem;
+            color: #4a4440;
+        }
+        ul {
+            padding-left: 1.25rem;
+            margin-top: 0.5rem;
+        }
+        li { margin-bottom: 0.35rem; }
+        .effective {
+            margin-top: 2.5rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid #e8e2da;
+            font-size: 0.85rem;
+            color: #8C7055;
+        }
+        a { color: #8C7055; }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    <p class="date">Effective date: March 21, 2026</p>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">iCart for iOS</p>
 
-    <p>iCart ("we", "the app") is a shared shopping list app. This policy explains what data we collect, why, and how it is handled.</p>
+        <p>iCart ("we", "the app") is a shared shopping list app. This policy explains what data we collect, why, and how it is handled.</p>
 
-    <h2>Data We Collect</h2>
-    <ul>
-        <li><strong>Account information</strong> — email address and display name, used to identify you within the app.</li>
-        <li><strong>Shopping list content</strong> — lists, items, notes, and item photos you create.</li>
-        <li><strong>Push notification tokens</strong> — device tokens used solely to deliver notifications you opt into.</li>
-        <li><strong>Location</strong> — accessed only when you choose to pick a store on the map. We do not track or store your location.</li>
-    </ul>
+        <h2>Data We Collect</h2>
+        <ul>
+            <li><strong>Account information</strong> — email address and display name, used to identify you within the app.</li>
+            <li><strong>Shopping list content</strong> — lists, items, notes, and item photos you create.</li>
+            <li><strong>Push notification tokens</strong> — device tokens used solely to deliver notifications you opt into.</li>
+            <li><strong>Location</strong> — accessed only when you choose to pick a store on the map. We do not track or store your location.</li>
+        </ul>
 
-    <h2>How We Use Your Data</h2>
-    <p>Your data is used exclusively to provide the app's functionality: syncing shopping lists with your group members, sending push notifications, and displaying your profile to group members.</p>
+        <h2>How We Use Your Data</h2>
+        <p>Your data is used exclusively to provide the app's functionality: syncing shopping lists with your group members, sending push notifications, and displaying your profile to group members.</p>
 
-    <h2>Storage &amp; Security</h2>
-    <p>All data is stored in Google Firebase (Cloud Firestore and Firebase Storage), hosted on Google Cloud infrastructure. Data is encrypted in transit (TLS) and at rest. We do not sell, share, or transfer your data to third parties for advertising or marketing.</p>
+        <h2>Storage &amp; Security</h2>
+        <p>All data is stored in Google Firebase (Cloud Firestore and Firebase Storage), hosted on Google Cloud infrastructure. Data is encrypted in transit (TLS) and at rest. We do not sell, share, or transfer your data to third parties for advertising or marketing.</p>
 
-    <h2>Third-Party Services</h2>
-    <ul>
-        <li><strong>Firebase Authentication</strong> — for account management.</li>
-        <li><strong>Google Sign-In</strong> — optional sign-in method. Subject to <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
-        <li><strong>Firebase Cloud Messaging</strong> — for push notifications.</li>
-        <li><strong>Open Food Facts</strong> — barcode lookups are sent to the public Open Food Facts API. No personal data is included in these requests.</li>
-    </ul>
+        <h2>Third-Party Services</h2>
+        <ul>
+            <li><strong>Firebase Authentication</strong> — for account management.</li>
+            <li><strong>Google Sign-In</strong> — optional sign-in method. Subject to <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
+            <li><strong>Firebase Cloud Messaging</strong> — for push notifications.</li>
+            <li><strong>Open Food Facts</strong> — barcode lookups are sent to the public Open Food Facts API. No personal data is included in these requests.</li>
+        </ul>
 
-    <h2>Data Retention</h2>
-    <ul>
-        <li>Shopping list history is automatically deleted based on your group's setting (default: 7 days after completion).</li>
-        <li>Activity logs are automatically deleted 3 days after creation.</li>
-        <li>Your account data is retained until you delete your account.</li>
-    </ul>
+        <h2>Data Retention</h2>
+        <ul>
+            <li>Shopping list history is automatically deleted based on your group's setting (default: 7 days after completion).</li>
+            <li>Activity logs are automatically deleted 3 days after creation.</li>
+            <li>Your account data is retained until you delete your account.</li>
+        </ul>
 
-    <h2>Account Deletion</h2>
-    <p>You can delete your account at any time from the Profile screen in the app. Deleting your account removes your user record, removes you from all groups, and deletes any groups where you are the sole member.</p>
+        <h2>Account Deletion</h2>
+        <p>You can delete your account at any time from the Profile screen in the app. Deleting your account removes your user record, removes you from all groups, and deletes any groups where you are the sole member.</p>
 
-    <h2>Children's Privacy</h2>
-    <p>The app is not directed at children under 13. We do not knowingly collect data from children under 13.</p>
+        <h2>Children's Privacy</h2>
+        <p>The app is not directed at children under 13. We do not knowingly collect data from children under 13.</p>
 
-    <h2>Changes to This Policy</h2>
-    <p>We may update this policy from time to time. The updated version will be posted at this URL with a revised effective date.</p>
+        <h2>Changes to This Policy</h2>
+        <p>We may update this policy from time to time. The updated version will be posted at this URL with a revised effective date.</p>
 
-    <h2>Contact</h2>
-    <p>If you have questions about this privacy policy, contact us at <a href="mailto:brainvault.mind@gmail.com">brainvault.mind@gmail.com</a>.</p>
+        <h2>Contact</h2>
+        <p>If you have questions about this privacy policy, contact us at <a href="mailto:brainvault.mind@gmail.com">brainvault.mind@gmail.com</a>.</p>
+
+        <p class="effective">Effective date: March 21, 2026</p>
+    </div>
 </body>
 </html>
