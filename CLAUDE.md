@@ -30,3 +30,4 @@ All pages share the same visual language — match it when adding or editing pag
 The iOS app source code lives in sibling directories:
 - **CellMonitor (Datamonitor)**: `../Datamonitor`
 - **iCart**: `../iCart`
+- **SpendMee**: `~/Dev/SpendMee` — pages are in Czech; the privacy policy mirrors `docs/privacy-policy.md` there, keep them in sync

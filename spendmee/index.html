@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpendMee — Podpora</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: #2D2823;
+            background: #F9F6F2;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            text-align: center;
+        }
+        .icon {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, #DDD2C1, #B89245);
+            border-radius: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-size: 48px;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.25rem;
+            color: #2D2823;
+        }
+        .tagline {
+            color: #8C7055;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+        .features {
+            text-align: left;
+            margin: 2rem 0;
+        }
+        .feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1.25rem;
+        }
+        .feature-icon {
+            flex-shrink: 0;
+            width: 40px;
+            height: 40px;
+            background: #8C7055;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+        }
+        .feature-icon.amber { background: #B89245; }
+        .feature-icon.sage { background: #7A8C5A; }
+        .feature-icon.terra { background: #B5503A; }
+        .feature h3 {
+            font-size: 1rem;
+            margin-bottom: 0.1rem;
+            color: #2D2823;
+        }
+        .feature p {
+            font-size: 0.9rem;
+            color: #6b6560;
+        }
+        .section-title {
+            font-size: 1.2rem;
+            color: #8C7055;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            text-align: left;
+        }
+        .faq {
+            text-align: left;
+            margin-bottom: 1.5rem;
+        }
+        .faq h3 {
+            font-size: 0.95rem;
+            margin-bottom: 0.25rem;
+            color: #2D2823;
+        }
+        .faq p {
+            font-size: 0.9rem;
+            color: #6b6560;
+        }
+        .contact {
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e8e2da;
+        }
+        .contact p {
+            font-size: 0.95rem;
+            color: #6b6560;
+        }
+        a {
+            color: #8C7055;
+            text-decoration: none;
+        }
+        a:hover { text-decoration: underline; }
+        nav { margin-top: 2rem; }
+        nav a {
+            display: block;
+            padding: 20px;
+            margin-bottom: 12px;
+            background: #F9F6F2;
+            border-radius: 12px;
+            color: #2D2823;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            text-align: left;
+        }
+        nav a:hover { background: #f0ebe4; }
+        nav a span {
+            color: #6b6560;
+            font-weight: 400;
+            font-size: 0.9rem;
+            display: block;
+            margin-top: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">💸</div>
+        <h1>SpendMee</h1>
+        <p class="tagline">Výdaje pod kontrolou · i ty z Apple Pay, automaticky</p>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">💳</div>
+                <div>
+                    <h3>Automatické zachycení Apple Pay</h3>
+                    <p>Osobní automatizace ve Zkratkách zapíše každou platbu Apple Pay sama, i se zamčeným telefonem.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon terra">🎙️</div>
+                <div>
+                    <h3>Zadání rukou i hlasem</h3>
+                    <p>Výdaj nadiktuješ jednou větou. Řeč se rozpoznává přímo v iPhonu, nikam se neposílá.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon sage">🔔</div>
+                <div>
+                    <h3>Limity a upozornění</h3>
+                    <p>Nastav si měsíční limit a upozornění, než ho překročíš.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon amber">📊</div>
+                <div>
+                    <h3>Přehledy po kategoriích</h3>
+                    <p>Měsíc po kategoriích a srovnání s minulým měsícem. Cizí měny přepočítá kurzem ČNB.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">👨‍👩‍👧</div>
+                <div>
+                    <h3>Skupiny (Premium)</h3>
+                    <p>Společný přehled výdajů pro rodinu nebo spolubydlící, limity členů a rozpočet skupiny.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon terra">📄</div>
+                <div>
+                    <h3>Export do CSV</h3>
+                    <p>Všechny své výdaje si kdykoli vyexportuješ v Nastavení → Data.</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Časté otázky</h2>
+
+        <div class="faq">
+            <h3>Jak zapnu automatické zachycení plateb Apple Pay?</h3>
+            <p>Po přihlášení tě aplikace provede návodem (najdeš ho i v Nastavení). Ve Zkratkách vytvoříš osobní automatizaci se spouštěčem Transakce, která volá akci „Zaznamenat platbu“. Vypni u ní „Oznámit při spuštění“. Po první platbě uvidíš v Nastavení „Poslední platba zachycena“.</p>
+        </div>
+
+        <div class="faq">
+            <h3>Platba se nezapsala. Co mám zkontrolovat?</h3>
+            <p>Ve Zkratkách ověř, že automatizace je zapnutá a nastavená na „Spustit okamžitě“. Zachycují se jen platby Apple Pay kartou z Walletu. Výdaj můžeš vždy doplnit ručně.</p>
+        </div>
+
+        <div class="faq">
+            <h3>Kde jsou moje data?</h3>
+            <p>Výdaje se synchronizují do databáze v EU (Frankfurt). Neprodáváme je, nezobrazujeme reklamu a nepoužíváme analytiku třetích stran. Podrobnosti najdeš v zásadách ochrany osobních údajů.</p>
+        </div>
+
+        <div class="faq">
+            <h3>Co je v Premium?</h3>
+            <p>Všechno osobní je zdarma a bez omezení počtu výdajů. Premium odemyká zakládání skupin a zápis do nich. Premium Family se sdílí přes Rodinné sdílení Apple.</p>
+        </div>
+
+        <div class="faq">
+            <h3>Jak zruším předplatné?</h3>
+            <p>V Nastavení iOS → tvé jméno → Předplatná → SpendMee. Smazáním aplikace ani účtu se předplatné nezruší.</p>
+        </div>
+
+        <div class="faq">
+            <h3>Jak smažu účet a data?</h3>
+            <p>V aplikaci v Nastavení → Smazat účet. Smazání je okamžité a nevratné, na serveru vše fyzicky zmizí do 31 dnů. Předtím si můžeš výdaje vyexportovat do CSV.</p>
+        </div>
+
+        <nav>
+            <a href="privacy-policy.html">
+                Zásady ochrany osobních údajů
+                <span>Jak zacházíme s tvými daty</span>
+            </a>
+        </nav>
+
+        <div class="contact">
+            <p>Potřebuješ pomoct? Napiš na <a href="mailto:brainvault.mind@gmail.com">brainvault.mind@gmail.com</a>. Přidej své ID uživatele z Nastavení → Soukromí.</p>
+        </div>
+    </div>
+</body>
+</html>

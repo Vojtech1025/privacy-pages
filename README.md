@@ -12,11 +12,16 @@ Support pages and privacy policies for BrainVault iOS apps, hosted via GitHub Pa
 - [Support Page](icart/index.html) — App information and links
 - [Privacy Policy](icart/privacy-policy.html) — How the app handles your data
 
+### SpendMee
+- [Support Page](spendmee/index.html) — Features, FAQ, and contact (Czech)
+- [Privacy Policy](spendmee/privacy-policy.html) — GDPR privacy policy (Czech; source: `docs/privacy-policy.md` in the SpendMee repo)
+
 ## Structure
 
 ```
 cellmonitor/        CellMonitor support and privacy policy
 icart/              iCart support and privacy policy
+spendmee/           SpendMee support and privacy policy
 index.html          Root landing page
 ```
 

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpendMee — Zásady ochrany osobních údajů</title>
+    <!-- Zdroj textu: docs/privacy-policy.md v repu SpendMee. Návrh, před vydáním projde právník (SpendMee #37). -->
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: #2D2823;
+            background: #F9F6F2;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        }
+        h1 {
+            font-size: 1.75rem;
+            margin-bottom: 0.25rem;
+            color: #2D2823;
+        }
+        .subtitle {
+            color: #8C7055;
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+        }
+        h2 {
+            font-size: 1.15rem;
+            margin-top: 1.75rem;
+            margin-bottom: 0.5rem;
+            color: #8C7055;
+        }
+        h3 {
+            font-size: 1rem;
+            margin-top: 1rem;
+            color: #2D2823;
+        }
+        p, li, td, th {
+            font-size: 0.95rem;
+            color: #4a4440;
+        }
+        p + p { margin-top: 0.5rem; }
+        ul {
+            padding-left: 1.25rem;
+            margin-top: 0.5rem;
+        }
+        li { margin-bottom: 0.35rem; }
+        .table-wrap {
+            overflow-x: auto;
+            margin: 0.75rem 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            text-align: left;
+            vertical-align: top;
+            padding: 0.5rem;
+            border-bottom: 1px solid #e8e2da;
+        }
+        th {
+            color: #2D2823;
+            font-weight: 600;
+        }
+        .effective {
+            margin-top: 2.5rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid #e8e2da;
+            font-size: 0.85rem;
+            color: #8C7055;
+        }
+        a { color: #8C7055; }
+        @media (max-width: 480px) {
+            .container { padding: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Zásady ochrany osobních údajů</h1>
+        <p class="subtitle">SpendMee pro iPhone</p>
+
+        <p>Tyto zásady popisují, jak aplikace SpendMee pro iPhone (dále „aplikace“) zpracovává osobní údaje svých uživatelů podle nařízení (EU) 2016/679 (GDPR) a zákona č. 110/2019 Sb., o zpracování osobních údajů.</p>
+
+        <h2>1. Správce a kontakt</h2>
+        <!-- TODO před vydáním (#37): doplnit „fyzická osoba podnikající (OSVČ), IČO …, se sídlem …“, pokud to právník vyžaduje. -->
+        <p>Správcem osobních údajů je <strong>Vojtěch Volprecht</strong> (dále „správce“ nebo „my“).</p>
+        <p>S dotazy a žádostmi ohledně osobních údajů nám piš na <a href="mailto:brainvault.mind@gmail.com"><strong>brainvault.mind@gmail.com</strong></a>. Do e-mailu vlož své <strong>ID uživatele</strong> (v aplikaci v <em>Nastavení → Soukromí</em>, klepnutím ho zkopíruješ), podle něj tě v našich datech najdeme. Pověřence pro ochranu osobních údajů jsme nejmenovali, protože to pro náš rozsah zpracování není povinné.</p>
+
+        <h2>2. Jaké údaje zpracováváme</h2>
+        <h3>Účet a profil</h3>
+        <ul>
+            <li>identifikátor tvého Apple ID z přihlášení přes Apple (anonymní „sub“) a interní ID uživatele;</li>
+            <li>zobrazované jméno (z Apple při prvním přihlášení, můžeš ho kdykoli změnit);</li>
+            <li>výchozí měna a časové pásmo zařízení.</li>
+        </ul>
+        <p><strong>E-mail neukládáme.</strong> Ani když ho Apple nabídne, aplikace o něj nežádá.</p>
+
+        <h3>Výdaje a nastavení</h3>
+        <ul>
+            <li>výdaje, které zadáš ručně, hlasem nebo které aplikace zachytí z Apple Pay přes Zkratky: částka, měna, obchodník, kategorie, datum a čas, název karty z Walletu, zdroj záznamu;</li>
+            <li>limity, pravidla kategorií a karet, ztlumení upozornění;</li>
+            <li>členství ve skupinách, pozvánky a výdaje, které do skupiny přidáš.</li>
+        </ul>
+        <p>Hlasové zadání se převádí na text <strong>přímo v zařízení</strong> (rozpoznávání řeči Apple na zařízení); zvuk ani přepis nám nechodí, k nám dorazí jen výsledný výdaj.</p>
+
+        <h3>Předplatné</h3>
+        <ul>
+            <li>stav předplatného Premium (do kdy platí, produkt, zda jde o Rodinné sdílení). Platební údaje nevidíme, platbu zpracovává Apple.</li>
+        </ul>
+
+        <h3>Technické údaje</h3>
+        <ul>
+            <li>push token zařízení a prostředí (pro upozornění na limity a události ve skupině);</li>
+            <li>technické záznamy serveru (např. IP adresa v logu požadavku) u poskytovatele hostingu po dobu jeho standardní retence.</li>
+        </ul>
+
+        <p><strong>Co nezpracováváme:</strong> nepoužíváme analytické nástroje ani nástroje pro hlášení pádů třetích stran, nesledujeme tě napříč aplikacemi a weby (bez App Tracking Transparency), nezobrazujeme reklamu, neprofilujeme a nerozhodujeme automatizovaně. Žádné údaje neposíláme do cloudové umělé inteligence; rozpoznávání výdajů a kategorií běží v zařízení. Statistiky o stažení a pádech vidíme jen souhrnně v App Store Connect od Apple, podle tvého nastavení sdílení v iOS.</p>
+
+        <h2>3. Účely a právní základ</h2>
+        <p>Všechny údaje zpracováváme, abychom ti mohli poskytovat aplikaci podle smlouvy (podmínek užívání), kterou s námi uzavíráš registrací – <strong>právní základ: plnění smlouvy, čl. 6 odst. 1 písm. b) GDPR</strong>. Konkrétně:</p>
+        <ul>
+            <li>vedení účtu a přihlášení přes Apple;</li>
+            <li>ukládání, synchronizace a přehledy tvých výdajů a jejich přepočet měn (kurzy ČNB);</li>
+            <li>limity a upozornění na jejich překročení;</li>
+            <li>skupiny: sdílení tvého jména a výdajů, které do skupiny přidáš, s ostatními členy (při přijetí pozvánky tě na to aplikace upozorní);</li>
+            <li>předplatné Premium a ověření nároku na něj;</li>
+            <li>podpora a vyřizování tvých žádostí.</li>
+        </ul>
+        <p>Souhlas nevyžadujeme, protože bez těchto údajů aplikace fungovat nemůže. Oprávnění iOS (oznámení, mikrofon a rozpoznávání řeči) uděluješ v systému a kdykoli je můžeš vypnout.</p>
+
+        <h2>4. Kdo údaje zpracovává pro nás a předávání mimo EU</h2>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr><th>Zpracovatel</th><th>K čemu</th><th>Kde</th><th>Jaké údaje</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Supabase, Inc.</strong></td>
+                        <td>databáze, přihlášení, serverové funkce</td>
+                        <td>EU (Frankfurt, Německo)</td>
+                        <td>všechny údaje uvedené v bodě 2</td>
+                    </tr>
+                    <tr>
+                        <td><strong>RevenueCat, Inc.</strong></td>
+                        <td>správa předplatného Premium</td>
+                        <td>USA</td>
+                        <td>jen interní ID uživatele a údaje o nákupu od Apple; žádné jméno, e-mail ani výdaje</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Apple Inc. / Apple Distribution International</strong></td>
+                        <td>přihlášení přes Apple, doručování push oznámení (APNs), platby za předplatné</td>
+                        <td>EU / USA</td>
+                        <td>identifikátor Apple ID, push token a obsah oznámení, nákup předplatného</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- TODO (#37): ověřit aktuální DPA Supabase, seznam subzpracovatelů a certifikaci DPF. -->
+        <p>Supabase, Inc. je společnost se sídlem v USA. Data ukládáme v jejím datovém centru ve Frankfurtu (EU), přístup jejích zaměstnanců nebo subdodavatelů z USA (např. při podpoře a provozu) ale nelze vyloučit; i ten se řídí pravidly níže.</p>
+        <p>Předání do USA (Supabase, RevenueCat, případně Apple) probíhá na základě rozhodnutí Evropské komise o odpovídající ochraně (EU-U.S. Data Privacy Framework), u něhož jsou příjemci certifikovaní, případně na základě standardních smluvních doložek (čl. 46 GDPR).</p>
+        <p>Členové skupiny vidí tvé zobrazované jméno a výdaje, které do skupiny přidáš. Jiným osobám údaje nepředáváme a neprodáváme; výjimkou je jen povinnost uložená zákonem (např. na žádost orgánu veřejné moci).</p>
+
+        <h2>5. Jak dlouho údaje uchováváme</h2>
+        <ul>
+            <li><strong>Dokud máš účet.</strong> Neaktivní účty automaticky nemažeme.</li>
+            <li><strong>Smazaný výdaj</strong> skryjeme hned a fyzicky ho smažeme do 31 dnů (čistka běží denně a maže záznamy starší než 30 dnů).</li>
+            <li><strong>Smazání účtu</strong> (v aplikaci, <em>Nastavení → Smazat účet</em>) je pro tebe okamžité a nevratné: tvé výdaje zmizí i ze skupin, profil a nastavení se odstraní a přihlášení přes Apple se zneplatní. Na serveru vše fyzicky smažeme do 31 dnů; do té doby nejde se stejným Apple ID založit nový účet. Zálohy poskytovatele hostingu vyprší jeho standardním cyklem.</li>
+            <li><strong>Zrušená skupina</strong> je 30 dní jen pro čtení, pak zanikne a do dalších 30 dnů se fyzicky smaže.</li>
+            <li><strong>Fronta push oznámení</strong> na serveru: nejvýš 90 dní.</li>
+            <li><strong>Údaje v zařízení</strong> (místní databáze aplikace) se smažou při odhlášení nebo smazání účtu. V interních testovacích verzích aplikace se navíc v zařízení vede ladicí záznam zachycených plateb Apple Pay (rotace 30 dní / 500 záznamů); v App Store verzi je vypnutý a na server se nikdy neposílá.</li>
+        </ul>
+        <p>Předplatné Premium smazáním účtu nekončí – zruš ho v nastavení Apple ID (aplikace tě tam odkáže). Údaje o nákupu může Apple a RevenueCat uchovávat podle svých pravidel a účetních předpisů.</p>
+
+        <h2>6. Tvoje práva</h2>
+        <p>Máš právo:</p>
+        <ul>
+            <li>na <strong>přístup</strong> ke svým údajům (čl. 15) – napiš na e-mail podpory se svým ID uživatele;</li>
+            <li>na <strong>opravu</strong> (čl. 16) – jméno a měnu změníš v <em>Nastavení</em>, výdaje přímo v aplikaci;</li>
+            <li>na <strong>výmaz</strong> (čl. 17) – smazáním účtu v aplikaci, nebo e-mailem podpory;</li>
+            <li>na <strong>omezení zpracování</strong> (čl. 18);</li>
+            <li>na <strong>přenositelnost</strong> (čl. 20) – export všech tvých výdajů do CSV v <em>Nastavení → Data</em>;</li>
+            <li><strong>vznést námitku</strong> (čl. 21); zpracování na základě smlouvy ale nelze bez ukončení účtu zastavit;</li>
+            <li>nebýt předmětem <strong>automatizovaného rozhodování</strong> (čl. 22) – žádné neprovádíme.</li>
+        </ul>
+        <p>Na žádost odpovíme bez zbytečného odkladu, nejpozději do jednoho měsíce.</p>
+        <p>Pokud si myslíš, že s údaji zacházíme v rozporu s předpisy, můžeš podat stížnost u <strong>Úřadu pro ochranu osobních údajů</strong>, Pplk. Sochora 27, 170 00 Praha 7, <a href="https://www.uoou.gov.cz">www.uoou.gov.cz</a>.</p>
+
+        <h2>7. Zabezpečení</h2>
+        <p>Data se přenášejí šifrovaně (HTTPS). Na serveru má každý uživatel přístup jen ke svým údajům a ke skupinám, jejichž je členem (řízení přístupu přímo v databázi). V zařízení je místní databáze chráněná šifrováním souborů iOS (přístupná po prvním odemčení telefonu, aby šlo zaznamenat platbu i se zamčeným displejem). Přihlášení probíhá výhradně přes Apple, heslo k aplikaci nemáš.</p>
+
+        <h2>8. Děti</h2>
+        <p>Aplikace není určena osobám mladším 15 let.</p>
+
+        <h2>9. Změny zásad</h2>
+        <p>Zásady můžeme aktualizovat, např. při nové funkci nebo novém zpracovateli. O podstatných změnách tě informujeme v aplikaci. Aktuální znění najdeš v aplikaci (<em>Nastavení → Zásady ochrany soukromí</em>) a na této adrese.</p>
+
+        <!-- TODO před vydáním: nahradit datem vydání aplikace. -->
+        <p class="effective">Účinné od: 10. října 2026</p>
+    </div>
+</body>
+</html>
