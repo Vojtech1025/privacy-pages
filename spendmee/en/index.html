@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="alternate" hreflang="cs" href="../index.html">
+    <title>SpendMee — Support</title>
+    <!-- Zdroj textu: anglický překlad spendmee/index.html (česká podpora); bez .md zdroje. Při změně uprav obě verze. -->
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: #2D2823;
+            background: #F9F6F2;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            text-align: center;
+        }
+        .icon {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, #DDD2C1, #B89245);
+            border-radius: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-size: 48px;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.25rem;
+            color: #2D2823;
+        }
+        .tagline {
+            color: #8C7055;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+        .features {
+            text-align: left;
+            margin: 2rem 0;
+        }
+        .feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1.25rem;
+        }
+        .feature-icon {
+            flex-shrink: 0;
+            width: 40px;
+            height: 40px;
+            background: #8C7055;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+        }
+        .feature-icon.amber { background: #B89245; }
+        .feature-icon.sage { background: #7A8C5A; }
+        .feature-icon.terra { background: #B5503A; }
+        .feature h3 {
+            font-size: 1rem;
+            margin-bottom: 0.1rem;
+            color: #2D2823;
+        }
+        .feature p {
+            font-size: 0.9rem;
+            color: #6b6560;
+        }
+        .section-title {
+            font-size: 1.2rem;
+            color: #8C7055;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            text-align: left;
+        }
+        .faq {
+            text-align: left;
+            margin-bottom: 1.5rem;
+        }
+        .faq h3 {
+            font-size: 0.95rem;
+            margin-bottom: 0.25rem;
+            color: #2D2823;
+        }
+        .faq p {
+            font-size: 0.9rem;
+            color: #6b6560;
+        }
+        .contact {
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e8e2da;
+        }
+        .contact p {
+            font-size: 0.95rem;
+            color: #6b6560;
+        }
+        a {
+            color: #8C7055;
+            text-decoration: none;
+        }
+        a:hover { text-decoration: underline; }
+        nav { margin-top: 2rem; }
+        nav a {
+            display: block;
+            padding: 20px;
+            margin-bottom: 12px;
+            background: #F9F6F2;
+            border-radius: 12px;
+            color: #2D2823;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            text-align: left;
+        }
+        nav a:hover { background: #f0ebe4; }
+        nav a span {
+            color: #6b6560;
+            font-weight: 400;
+            font-size: 0.9rem;
+            display: block;
+            margin-top: 2px;
+        }
+        .lang-switch {
+            margin-top: -1.5rem;
+            margin-bottom: 2rem;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">💸</div>
+        <h1>SpendMee</h1>
+        <p class="tagline">Your spending under control · Apple Pay included, automatically</p>
+        <p class="lang-switch"><a href="../index.html" hreflang="cs" lang="cs">Česky</a></p>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">💳</div>
+                <div>
+                    <h3>Automatic Apple Pay capture</h3>
+                    <p>A personal automation in Shortcuts records every Apple Pay payment on its own, even with your phone locked.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon terra">🎙️</div>
+                <div>
+                    <h3>Manual or voice entry</h3>
+                    <p>Dictate an expense in a single sentence. Speech is recognized right on your iPhone and never sent anywhere.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon sage">🔔</div>
+                <div>
+                    <h3>Limits and alerts</h3>
+                    <p>Set a monthly limit and get alerted before you exceed it.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon amber">📊</div>
+                <div>
+                    <h3>Overviews by category</h3>
+                    <p>Your month by category and a comparison with the previous month. Foreign currencies are converted at the Czech National Bank (ČNB) rate.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">👨‍👩‍👧</div>
+                <div>
+                    <h3>Groups (Premium)</h3>
+                    <p>A shared expense overview for your family or roommates, member limits and a group budget.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon terra">📄</div>
+                <div>
+                    <h3>CSV export</h3>
+                    <p>Export all your expenses at any time in Settings → Data.</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">FAQ</h2>
+
+        <div class="faq">
+            <h3>How do I turn on automatic Apple Pay capture?</h3>
+            <p>After you sign in, the app walks you through a guide (you can also find it in Settings). In Shortcuts, you create a personal automation with the Transaction trigger that runs the “Record payment” action. Turn off “Notify When Run” for it. After your first payment, Settings will show “Last payment captured”.</p>
+        </div>
+
+        <div class="faq">
+            <h3>A payment wasn’t recorded. What should I check?</h3>
+            <p>In Shortcuts, make sure the automation is turned on and set to “Run Immediately”. Only Apple Pay payments made with a card in Wallet are captured. You can always add an expense manually.</p>
+        </div>
+
+        <div class="faq">
+            <h3>Where is my data?</h3>
+            <p>Expenses are synced to a database in the EU (Frankfurt). We don’t sell them, show ads or use third-party analytics. You’ll find the details in the privacy policy.</p>
+        </div>
+
+        <div class="faq">
+            <h3>What’s in Premium?</h3>
+            <p>Everything personal is free, with no limit on the number of expenses. Premium unlocks creating groups and adding entries to them. Premium Family is shared through Apple Family Sharing.</p>
+        </div>
+
+        <div class="faq">
+            <h3>How do I cancel my subscription?</h3>
+            <p>In iOS Settings → your name → Subscriptions → SpendMee. Deleting the app or your account does not cancel the subscription.</p>
+        </div>
+
+        <div class="faq">
+            <h3>How do I delete my account and data?</h3>
+            <p>In the app, go to Settings → Delete account. Deletion is immediate and irreversible; everything is physically removed from the server within 31 days. Before that, you can export your expenses to CSV.</p>
+        </div>
+
+        <nav>
+            <a href="privacy-policy.html">
+                Privacy Policy
+                <span>How we handle your data</span>
+            </a>
+            <a href="terms.html">
+                Terms of Use
+                <span>Rules for the app and the Premium subscription</span>
+            </a>
+        </nav>
+
+        <div class="contact">
+            <p>Need help? Write to <a href="mailto:brainvault.mind@gmail.com">brainvault.mind@gmail.com</a>. Include your user ID from Settings → Privacy.</p>
+        </div>
+    </div>
+</body>
+</html>
